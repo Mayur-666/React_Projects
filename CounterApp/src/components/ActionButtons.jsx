@@ -34,7 +34,7 @@ const ActionButtons = ({ value }) => {
         <button onClick={handleDecrement}>-1</button>
       </div>
       <input
-        type="text"
+        type="number"
         name="inputVal"
         placeholder="Enter any value "
         ref={inputVal}
