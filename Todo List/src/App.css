@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  font-size: 62.5%;
+  font-family: Arial, Helvetica, sans-serif Narrow Bold', sans-serif;
+}
+body{
+  width: 100%;
+  border: 1px solid tomato;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  border: 1px solid tomato;
+  margin: 5rem auto;
+  display: flex;
+  max-width: 90%;
+  align-items: center;
+  flex-direction: column;
+}
+h1{
+  font-size: 5rem;
+}
+.todo_input{
+  width: 100%;
+  display: flex;
+  margin: 1rem 0 0.25rem 0;
+}
+.item_container{
+  width: 100%;
+}
+.todo_list{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#todo_name, .todo_item_name{
+  overflow: auto;
+  flex: 6;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.5rem;
+  border: 1px solid tomato;
+}
+#todo_date, .todo_item_date{
+  flex: 4;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+#add_todo, #delete_todo{
+  flex: 2;
+  font-size: 2rem;
+  outline: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+#add_todo{
+  background-color: greenyellow;
+} 
+#delete_todo{
+  background-color: red;
+}
+#add_todo:hover, #delete_todo:hover{
+  background-color: rgb(172, 107, 1);
+  color: #fff;
+}
+.msg{
+  margin: 3rem;
+  font-size: 2rem;
+}
